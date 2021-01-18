@@ -1,22 +1,39 @@
 *{
     padding: 0.3rem;
     font-family: cursive;
-}
-h1 span{
-  color: yellow;
-}
-header{
-    padding: 3rem
-    };
-    
-.card-deck{
-  padding: 20px;
   
 }
+h1 span{
+  color:#ffc107;
+}
+h3{
+  color:darkblue;
+  font-weight: bold;
+}
+header{
+    font-family: cursive;
+    padding: 3rem
+    };
+ body{
+   background:darkgoldenrod;
+ }   
+.card-deck{
+  padding: 20px;
+  background:#ffc107;}
+.btn{
+  position: static;
+  float: inline-end;
 
+}
+  
+}
+.dropdown-menu{
+  background: violet;
+}
 footer{
 	position: relative;
-	bottom: 0;
+  bottom: 0;
+  font-family: cursive;
 }
 
 @media (max-height:800px){
@@ -61,7 +78,7 @@ footer{
 }
 
 .footer-distributed h3 span{
-	color:yellow;
+	color:#ffc107;
 }
 
 /* Footer links */
@@ -125,7 +142,7 @@ footer{
 }
 
 .footer-distributed .footer-center p a{
-	color: yellow;
+	color:#ffc107;
 	text-decoration: none;;
 }
 
