@@ -1,5 +1,5 @@
 *{
-    padding: 0.3rem;
+    padding: 0rem;
     font-family: cursive;
   
 }
@@ -7,25 +7,40 @@ h1 span{
   color:#ffc107;
 }
 h3{
-  color:darkblue;
+  color:#33383b;
   font-weight: bold;
 }
 header{
     font-family: cursive;
     padding: 3rem
-    };
+    }
  body{
-   background:darkgoldenrod;
- }   
+  
+ }  
+ .card-body{
+	 background: #ffc107;
+	 color: #33383b;
+ } 
+ blockquote {
+    padding:10px;
+    border:3px solid #ffc107; 
+    
+    color:#ffc107;
+    background:#33383b}
 .card-deck{
   padding: 20px;
-  background:#ffc107;}
+  background:#ffc107;
+}
 .btn{
   position: static;
   float: inline-end;
-
 }
-  
+.btn btn-link collapsed{
+	color: #33383b;
+}
+ .card{
+	 padding: 20px;
+ } 
 }
 .dropdown-menu{
   background: violet;
@@ -41,7 +56,12 @@ footer{
 	header { padding-top:15px; }
 }
 
-
+section{
+	margin-bottom:5vh ;
+	background:#ffc107;
+	padding: 10px;
+	
+}
 .footer-distributed{
 	background-color:#5bc0de;
 	box-sizing: border-box;
