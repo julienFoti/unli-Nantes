@@ -1,7 +1,7 @@
 *{
     padding: 0rem;
-    font-family: cursive;
-  
+	font-family: cursive;
+	
 }
 h1 span{
   color:#ffc107;
@@ -11,12 +11,18 @@ h3{
   font-weight: bold;
 }
 header{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     padding: 3rem
     }
  body{
-  
+	
  }  
+ #carousel index{
+	 display: flex;
+	 border: #5bc0de;
+	 padding: 3rem;
+	 justify-content: space-around;
+ }
  .card-body{
 	 background: #ffc107;
 	 color: #33383b;
@@ -30,6 +36,7 @@ header{
 .card-deck{
   padding: 20px;
   background:#ffc107;
+  max-height: 50%;
 }
 .btn{
   position: static;
@@ -44,6 +51,9 @@ header{
 }
 .dropdown-menu{
   background: violet;
+}
+.mobile diplay card{
+	hidden-lg-up
 }
 footer{
 	position: relative;

@@ -13,15 +13,16 @@
   
   <header>
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-      <a class="navbar-brand" href="#"><h1><span>UNLI</span>Nantes</h1></a>
+      <a class="navbar-brand" href="index.html"><h1><span>UNLI</span>-Nantes</h1></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link " href="index.html">Accueil</a></li>
           <li class="nav-item"><a class="nav-link " href="page1.html">Qui sommes-nous?</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Conseils aux nouveaux locataires</a>
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Nos Conseils </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="page2.html">etats des lieux</a>
               <a class="dropdown-item" href="page2.html">droits et devoirs</a>
@@ -46,9 +47,106 @@
   <div class="main">
     
 
-    <div class="card-deck bg-dark">
+    <div class="card-deck  bg-dark">
+      <div class="card ">
+        <div id="carousel index"> <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/logo unli.carousel 960*960png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/money-2696229_1920.carousel 960*960jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/background.carousel 960*960.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+        
+        
+      </div>
+     <div class="card">
+        <div id="qui sommes nous"><img class="card-img-top" src="images/infos du moment.jpg" alt="image carte 2"></div>
+        <div class="card-body">
+          <h3 class="card-title">espace pour info du moment</h3>
+          <p class="card-text">espace pour info du moment</p>
+          <a href="#" class="btn btn-warning">En savoir plus</a><!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+        </div>
+      </div>
       <div class="card">
-        <div id="qui sommes nous"><img class="card-img-top" src="images/logo unli (3).png" alt="Card image cap"></div>
+        <div id="carte 3"><img class="card-img-top" src="images/indices.jpg" alt="Card image cap"></div>
+        <div class="card-body">
+          <h3 class="card-title">indice de référence des loyers</h3>
+          <p class="card-text"><table class="table table-hover table-dark">
+            <thead>
+              <!--<tr>
+                <th scope="col">période</th>
+                <th scope="col">variation</th>
+                <th scope="col">montant</th>
+                
+              </tr>-->
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">3ème trimestre 2020</th>
+                
+                <td>+0,46%
+                </td>
+                <td>130,59</td>
+              </tr>
+              <tr>
+                <th scope="row">2ème trimestre 2020</th>
+               
+                <td>+0,66%</td>
+                <td>130,57</td>
+              </tr>
+              <tr>
+                <th scope="row">1er trimestre 2020</th>
+                <td>+0,92%</td>
+                <td>130,57</td>
+              </tr>
+              <tr>
+                <th scope="row">4ème trimestre 2019</th>
+               
+                <td>+0,95%
+                </td>
+                <td>130,26</td>
+              </tr>
+              <tr>
+                <th scope="row">3ème trimestre 2019</th>
+              
+                <td>+1,20%
+                </td>
+                <td>129,99</td>
+              </tr>
+            </tbody>
+          </table></p>
+           
+      
+           
+          <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+     
+    </div>
+    </div>
+    
+    <div class="d-lg-none d-xl-none  d-xxl-none">
+      <div class="card-deck bg-dark ">
+      <div class="card">
+        <div id="carousel index"><img class="card-img-top" src="images/logo unli (3).png" alt="Card image cap"></div>
         <div class="card-body">
           <h3 class="card-title">Qui sommes-Nous?</h3>
           <p class="card-text">présentation de l'association, son but, ses missions, etc...</p>
@@ -59,9 +157,9 @@
       <div class="card">
         <div id="qui sommes nous"><img class="card-img-top" src="images/image carte.2.jpg" alt="image carte 2"></div>
         <div class="card-body">
-          <h3 class="card-title">Conseils pour les nouveaux locataires</h3>
+          <h3 class="card-title">Nos conseils</h3>
           <p class="card-text">ici vous trouverez conseils et réponses à vos questions sur l'etat des lieux , les oblig ations du bailleurs etc...</p>
-          <a href="#" class="btn btn-warning">En savoir plus</a><!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+          <a href="#" class="btn btn-warning">En savoir plus</a><<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
       <div class="card">
@@ -72,7 +170,7 @@
            <a href="#" class="btn btn-warning">En savoir plus</a>
       
            
-          <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
       <div class="card">
@@ -83,19 +181,22 @@
             <p class="card-text">Suivez le lien pour adhérer en ligne à notre association </p><a href="https://union-nationale-des-locataires-independants-de-nantes.s2.yapla.com/fr/process/adhesion/#registration-member" class="btn btn-warning">adhérer ici</a>
           
             
-         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
     </div>
     <!--<div class="embed-responsive embed-responsive-4by3">
       <iframe class="embed-responsive-item" src="https://union-nationale-des-locataires-independants-de-nantes.s2.yapla.com/fr/process/adhesion/#registration-member"></iframe>
       </div>-->
+    </div>
   </div>
+  </div>
+
   <footer class="footer-distributed bg-dark">
 
     <div class="footer-left">
         <img src="images/logo unli.png">
-      <h3><span>UNLI</span>Nantes</h3>
+      <h3><span>UNLI</span>-Nantes</h3>
 
       <p class="footer-links">
         <a href="#">Accueil</a>
