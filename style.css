@@ -1,31 +1,40 @@
 *{
     padding: 0rem;
-	font-family: cursive;
+	font-family: 'Times New Roman', Times, serif;
 	
 }
 h1 span{
   color:#ffc107;
 }
+h2{
+	color: #ffc107;
+}
+p{
+	color:white;
+}
 h3{
-  color:#33383b;
+  color:#ffc107;
   font-weight: bold;
 }
 header{
     font-family: 'Times New Roman', Times, serif;
-    padding: 3rem
-    }
- body{
-	
- }  
+    padding:2rem
+	}
+	.dropdown-item{
+		color: #ffc107;
+	  }
+
+ 
  #carousel index{
 	 display: flex;
 	 border: #5bc0de;
-	 padding: 3rem;
+	 
 	 justify-content: space-around;
  }
  .card-body{
-	 background: #ffc107;
+	 background: #33383b;
 	 color: #33383b;
+	 padding: 10px;
  } 
  blockquote {
     padding:10px;
@@ -46,19 +55,17 @@ header{
 	color: #33383b;
 }
  .card{
-	 padding: 20px;
+	 padding: 5px;
  } 
 }
-.dropdown-menu{
-  background: violet;
-}
+
 .mobile diplay card{
 	hidden-lg-up
 }
 footer{
 	position: relative;
   bottom: 0;
-  font-family: cursive;
+
 }
 
 @media (max-height:800px){
@@ -148,7 +155,7 @@ section{
 	border-radius: 50%;
 	text-align: center;
 	line-height: 42px;
-	margin: 10px 15px;
+	margin: 10px 10px;
 	vertical-align: middle;
 }
 
@@ -239,4 +246,15 @@ section{
 		margin-left: 0;
 	}
 
+}
+/*content page*/
+article{
+	background: #33383b;
+	color: #ffc107;
+}
+.titlepage{
+	padding: 3rem;
+}
+.row align-items-center row justify-content-start{
+	padding: 3rem;
 }
