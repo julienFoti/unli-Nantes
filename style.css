@@ -1,7 +1,6 @@
 *{
-    padding: 0rem;
+    padding: 5px;
 	font-family: 'Times New Roman', Times, serif;
-	
 }
 h1 span{
   color:#ffc107;
@@ -11,6 +10,8 @@ h2{
 }
 p{
 	color:white;
+	text-align: justify;
+	text-justify: inter-word;
 }
 h3{
   color:#ffc107;
@@ -31,10 +32,14 @@ header{
 	 
 	 justify-content: space-around;
  }
+ .card-title{
+	 text-align: center;
+ }
  .card-body{
 	 background: #33383b;
-	 color: #33383b;
+	 color: whitesmoke;
 	 padding: 10px;
+	 text-align:start;
  } 
  blockquote {
     padding:10px;
@@ -257,4 +262,10 @@ article{
 }
 .row align-items-center row justify-content-start{
 	padding: 3rem;
+}
+.obligations{
+list-style: circle;
+text-align: justify;
+color: khaki;
+}
 }
