@@ -24,7 +24,10 @@ header{
 	.dropdown-item{
 		color: #ffc107;
 	  }
-
+article{
+	margin-left: 15%;
+	margin-right: 15%;
+}
  
  #carousel index{
 	 display: flex;
