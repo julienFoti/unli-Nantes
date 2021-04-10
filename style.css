@@ -17,6 +17,9 @@ h3{
   color:#ffc107;
   font-weight: bold;
 }
+.text-theme-color{
+	display: block;
+	text-align: center;
 header{
     font-family: 'Times New Roman', Times, serif;
     padding:2rem
