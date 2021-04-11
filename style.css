@@ -169,7 +169,7 @@ section{
 	background-color:#5bc0de;
 	box-sizing: border-box;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	font: bold 16px sans-serif;
 	padding:15px;
 	margin-top: 20px;
@@ -187,7 +187,9 @@ section{
 .footer-distributed .footer-left{
 	width: 30%;
 }
-
+.footer-links{
+    text-align: center;
+}
 .footer-distributed h3{
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
@@ -255,6 +257,7 @@ section{
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
+	text-align: center;
 }
 
 .footer-distributed .footer-center p span{
@@ -262,6 +265,7 @@ section{
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
+	text-align: center;
 }
 
 .footer-distributed .footer-center p a{
